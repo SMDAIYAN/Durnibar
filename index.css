@@ -5,12 +5,13 @@ body {
   background:black;
 }
 #menu a {
-    text-decoration: none;
+      text-decoration: none;
     color: WHite;
-    padding: 3.54px;
+    padding: 5px;
     background-color: rgb(226, 40, 124);;
     margin-left: 5px;
-    font-size: 15px
+    font-size: 13px;
+    font-weight: 700;
 }
 
 #menu {
