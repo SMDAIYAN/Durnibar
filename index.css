@@ -8,13 +8,13 @@ body {
     text-decoration: none;
     color: WHite;
     padding: 3.54px;
-    background-color: navy;
+    background-color: rgb(226, 40, 124);;
     margin-left: 5px;
     font-size: 15px
 }
 
 #menu {
-    background-color: rgb(0, 183, 255);
+    background-color: mediumpurple;
     height:25px;
     padding: 5px;
     width:351px;
@@ -77,6 +77,8 @@ width: 300px;
     background-color: plum;
     font-size: 15px;
     font-weight: 900;
+    border: 0.5px solid plum;
+    border-radius: 20px;
 }
 
 .second:hover {
@@ -85,6 +87,7 @@ width: 300px;
     transform: rotate(360deg);
     z-index: 0;
 }
+
 
 #button:hover {
   background: white;
