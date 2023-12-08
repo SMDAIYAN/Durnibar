@@ -5,7 +5,7 @@ body {
   background:black;
 }
 #menu a {
-      text-decoration: none;
+    text-decoration: none;
     color: WHite;
     padding: 5px;
     background-color: rgb(226, 40, 124);;
@@ -68,7 +68,7 @@ height:300px;
 width: 300px;
 }
 
-#button {
+.button {
     cursor: pointer;
     position: relative;
     text-align: center;
@@ -79,10 +79,12 @@ width: 300px;
     font-size: 15px;
     font-weight: 900;
     border: 0.5px solid plum;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 
-.second:hover {
+
+
+.second:hover  {
     transition: all;
     transition-duration: 3s;
     transform: rotate(360deg);
@@ -90,7 +92,12 @@ width: 300px;
 }
 
 
-#button:hover {
+.button:hover  {
   background: white;
   color: grey;
 } 
+
+#b1 {
+  background: white;
+  color: grey;
+}
