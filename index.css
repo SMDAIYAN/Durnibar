@@ -22,7 +22,7 @@ body {
     background-color: mediumpurple;
     height:25px;
     padding: 5px;
-    width:351px;
+    width:365px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body {
 
 .container {
     background-color: rgb(226, 40, 124);
-   width: 351px;
+   width: 365px;
    height: 400px;
    padding: 5px;
     display: flex;
@@ -43,7 +43,7 @@ body {
     margin-top: 45px;
     text-align: center;
     color: white;
-    width: 351px;
+    width: 365px;
     padding: 5px;
     background-color: rgb(149, 93, 223);
 }
@@ -112,7 +112,7 @@ width: 300px;
     justify-content: center;
     flex-direction: column;
     padding: 5px;
-    width: 351px;
+    width: 365px;
     background-color: rgb(149, 93, 223);
 
 
@@ -120,7 +120,7 @@ width: 300px;
 
     #map h5 {
         font-family: 'Dancing Script', cursive;
-        width: 351px;
+        width: 365px;
         color: white;
         font-family: 'Dhurjati', sans-serif;
         font-size: 20px;
