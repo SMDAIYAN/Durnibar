@@ -101,3 +101,7 @@ width: 300px;
   background: white;
   color: grey;
 }
+
+#map {
+    padding: 5px;
+    }
