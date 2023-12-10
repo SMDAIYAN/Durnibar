@@ -1,6 +1,10 @@
 * {
     padding: 0;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
 body {
   background:black;
 }
@@ -103,5 +107,21 @@ width: 300px;
 }
 
 #map {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 5px;
+    width: 351px;
+    background-color: rgb(149, 93, 223);
+
+
+    }
+
+    #map h5 {
+        font-family: 'Dancing Script', cursive;
+        width: 351px;
+        color: white;
+        font-family: 'Dhurjati', sans-serif;
+        font-size: 20px;
+
     }
