@@ -36,10 +36,11 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 5px;
 }
 
 #head {
-    margin-top: 10px;
+    margin-top: 45px;
     text-align: center;
     color: white;
     width: 351px;
@@ -124,4 +125,10 @@ width: 300px;
         font-family: 'Dhurjati', sans-serif;
         font-size: 20px;
 
+    }
+
+    nav {
+        position: fixed;
+        top: 5px;
+        z-index: 100;
     }
