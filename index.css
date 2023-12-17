@@ -10,7 +10,7 @@ body {
 }
 #menu a {
     text-decoration: none;
-    color: WHite;
+    color: White;
     padding: 5px;
     background-color: rgb(226, 40, 124);;
     margin-left: 5px;
@@ -156,6 +156,7 @@ width: 300px;
 #hashr {
   width: 365px;
   display: flex;
+flex-direction: column;
   justify-content: center;
   align-items: center;
   padding:5px;
