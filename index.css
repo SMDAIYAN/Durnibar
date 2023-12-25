@@ -38,11 +38,11 @@ top: 30px;
 #bsc {
   font-weight: 600;
   color: rgb(192, 190, 177);
-  font-size: 14px;
+  font-size: 13px;
 }
 #ctg {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(255, 255, 255);
 }
 
@@ -89,14 +89,11 @@ align-items: center;
 align-content: center;
 box-sizing: border-box;
 }
-.cv {
-  position: relative;
-  color: rgb(211, 207, 207);
-}
+
 
 .img img {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
     border-radius: 50%;
 }
 
@@ -141,14 +138,14 @@ width: 300px;
 .button:hover  {
   background: white;
   color: grey;
-  visibility: hidden;
+
 } 
 
 #b1 {
   color: rgba(252, 240, 240, 0.982);
  position: relative;
  text-align: center;
- top: 70px;
+ top: 76px;
 }
 
 #map {
