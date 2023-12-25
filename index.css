@@ -12,8 +12,13 @@ body {
 #outer {
   background-image: url(bg.jpg);
   background-size: cover;
+  width: 365px;
 }
 
+.img {
+position: relative;
+top: 30px;
+}
 
 #menu a {
     text-decoration: none;
@@ -23,6 +28,22 @@ body {
     margin-left: 5px;
     font-size: 13px;
     font-weight: 700;
+}
+
+#sm {
+  font-weight: 900;
+  color: gainsboro;
+}
+
+#bsc {
+  font-weight: 600;
+  color: rgb(192, 190, 177);
+  font-size: 14px;
+}
+#ctg {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
 }
 
 #menu {
@@ -60,13 +81,23 @@ position: absolute;
 z-index: 1;
 height:300px;
 width: 300px;
-background-color: rgba (148, 148, 148, 0.25);
+background-color: rgba (148, 148, 148, 0.4);
 backdrop-filter: blur(5px);
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+box-sizing: border-box;
+}
+.cv {
+  position: relative;
+  color: rgb(211, 207, 207);
 }
 
-#first img {
-    height: 300px;
-    width: 300px;
+.img img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
 }
 
 .second {
@@ -93,7 +124,8 @@ width: 300px;
     background-color: rgb(106, 97, 106);
     font-size: 15px;
     font-weight: 900;
-    border-radius: 20px; 
+    border-radius: 20px;
+    width: 265px; 
 }
 
 
@@ -109,11 +141,14 @@ width: 300px;
 .button:hover  {
   background: white;
   color: grey;
+  visibility: hidden;
 } 
 
 #b1 {
-  background: rgb(60, 52, 52);
   color: rgba(252, 240, 240, 0.982);
+ position: relative;
+ text-align: center;
+ top: 70px;
 }
 
 #map {
