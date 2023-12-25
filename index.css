@@ -6,20 +6,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
 
 body {
-  background:black;
+  background-color: rgba(16, 15, 15, 0.748);
 }
+
+#outer {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+
 #menu a {
     text-decoration: none;
     color: White;
     padding: 5px;
-    background-color: rgb(226, 40, 124);;
+    background-color: rgba(35, 45, 47, 0.598);
     margin-left: 5px;
     font-size: 13px;
     font-weight: 700;
 }
 
 #menu {
-    background-color: mediumpurple;
+    background-color: rgba(108, 103, 103, 0.6);
     height:25px;
     padding: 5px;
     width:365px;
@@ -29,7 +36,7 @@ body {
 }
 
 .container {
-    background-color: rgb(226, 40, 124);
+    background-color: rgba(44, 50, 52, 0.2);
    width: 365px;
    height: 400px;
    padding: 5px;
@@ -45,7 +52,7 @@ body {
     color: white;
     width: 365px;
     padding: 5px;
-    background-color: rgb(149, 93, 223);
+    background-color: rgba(44, 50, 52, 0.2);
 }
 
 #first {
@@ -53,7 +60,8 @@ position: absolute;
 z-index: 1;
 height:300px;
 width: 300px;
-background-color: rgb(226, 40, 124);
+background-color: rgba (148, 148, 148, 0.25);
+backdrop-filter: blur(5px);
 }
 
 #first img {
@@ -66,7 +74,9 @@ position: absolute;
 z-index: 2;
 height:300px;
 width: 300px;
-background-color: rgb(226, 40, 124);
+background-color: rgba (148, 148, 148, 0.25);
+backdrop-filter: blur(5px);
+box-shadow: 0 0 5px white;
 }
 .second img {
 height:300px;
@@ -79,11 +89,10 @@ width: 300px;
     text-align: center;
     top: 10px;
     padding: 15px;
-    color: maroon;
-    background-color: plum;
+    color: white;
+    background-color: rgb(106, 97, 106);
     font-size: 15px;
     font-weight: 900;
-    border: 0.5px solid plum;
     border-radius: 20px; 
 }
 
@@ -103,8 +112,8 @@ width: 300px;
 } 
 
 #b1 {
-  background: white;
-  color: grey;
+  background: rgb(60, 52, 52);
+  color: rgba(252, 240, 240, 0.982);
 }
 
 #map {
@@ -113,7 +122,7 @@ width: 300px;
     flex-direction: column;
     padding: 5px;
     width: 365px;
-    background-color: rgb(149, 93, 223);
+    background-color: rgba(16, 15, 15, 0.748)
 
 
     }
@@ -138,7 +147,7 @@ width: 300px;
      justify-content: center;
      align-items: center;
      flex-direction: column;  
-     background-color: lightseagreen;
+     background-color: rgba(50, 68, 69, 0.759);
      width: 365px;
      padding: 5px;
    }
@@ -152,6 +161,7 @@ width: 300px;
      font-size: 15px;
      margin-bottom: 15px;
      font-weight: 900;
+     color: wheat;
    }
 #hashr {
   width: 365px;
@@ -160,7 +170,7 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   padding:5px;
-  background:skyblue;
+  background:rgba(16, 15, 15, 0.748);
   color:black;
 align-content: center;
 }
