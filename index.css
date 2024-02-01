@@ -245,6 +245,11 @@ address {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(140, 230, 243);
 }
+
+.call a {
+  text-decoration: none;
+  color:rgb(140, 230, 243);
+}
 #call {
 margin-right: 15px;
 }
