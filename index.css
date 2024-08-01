@@ -207,9 +207,7 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   padding:5px;
-  background:rgba(16, 15, 15, 0.748);
-  color:black;
-align-content: center;
+ 
 }
 
 .info {
